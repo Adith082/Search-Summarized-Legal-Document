@@ -19,4 +19,7 @@ A full-stack web application to search for summarized legal documents
 - finally, run the backend server by initiating command `uvicorn app:app --reload`
 - for frontend execution, move to frontend folder from root folder and run the command `npm run dev`
 
+## Demo Pic
+
+
 
