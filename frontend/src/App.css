@@ -1,0 +1,155 @@
+ /* most of the styles are leveraged from chatgpt */
+ 
+ #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} 
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f7f8;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 25px;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column; /* stack input and button vertically */
+  align-items: center;    /* center horizontally */
+  gap: 15px;              /* space between input and button */
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 100%;             /* fill the container */
+  max-width: 800px;        /* wide enough, adjust as needed */
+  padding: 18px 24px;      /* taller and spacious */
+  border-radius: 999px;    /* fully rounded like ChatGPT */
+  border: 1px solid #ccc;
+  font-size: 18px;         /* comfortable typing size */
+  text-align: left;        /* natural typing alignment */
+  box-sizing: border-box;  /* ensures padding included in width */
+  outline: none;           /* remove default blue outline */
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.search-input:focus {
+  border-color: #646cff;   /* highlight color on focus */
+  box-shadow: 0 0 8px rgba(100, 108, 255, 0.3);
+}
+
+.search-button {
+  width: 50%;
+  max-width: 100px;       /* optional: limit button width */
+  padding: 12px 0;       /* vertical padding */
+  background-color: #2c3e50;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+}
+
+.search-button:hover {
+  background-color: black;
+}
+
+.search-button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.loading {
+  text-align: center;
+  color: #2980b9;
+  font-weight: bold;
+}
+
+.result-card {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.result-title {
+  margin: 0 0 10px 0;
+  color: darkblue;
+}
+
+.result-summary {
+  margin: 0;
+  color: black;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.not-found {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
