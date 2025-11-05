@@ -22,4 +22,5 @@ A full-stack web application to search for summarized legal documents
 ## Demo Video [Link](https://youtu.be/EiTDh9Zzhok?si=GVSwyJPx1Sw7wU7K)
 
 
-
+## SnapShots
+<p align="center"> <img src="images/v1.png" alt="App Screenshot 1" width="45%" style="border-radius:10px; margin-right:10px;"/> <img src="images/v2.png" alt="App Screenshot 2" width="45%" style="border-radius:10px;"/> </p>
